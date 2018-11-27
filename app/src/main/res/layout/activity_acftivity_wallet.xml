@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".layout_activity.Activity_Wallet">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/wallet" />
+    <TextView
+        android:id="@+id/mTV_wallet"
+        android:background="@drawable/bogoc"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Địa Chỉ Ví"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/LTR_Total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/mTV_LTR_Result"
+        android:background="@drawable/bogoc"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Địa Chỉ Ví"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/ETH_Total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/mTV_ETH_Result"
+        android:background="@drawable/bogoc"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Địa Chỉ Ví"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

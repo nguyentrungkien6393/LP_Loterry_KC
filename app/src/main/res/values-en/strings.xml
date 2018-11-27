@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="login">Login</string>
+    <string name="signin">Signin</string>
+    <string name="gender">Gender</string>
+    <string name="country">Country</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="orther">Orther</string>
+    <string name="Two_Factor_Authentication">Two Factor Authentication</string>
+    <string name="string_code_2FA">Two factor authentication (2FA) strengthens access security by requiring two methods (also referred to as factors) to verify your identity. Two factor authentication protects against phishing, social engineering and password brute force attacks and secures your logins from attackers exploiting weak or stolen credentials.</string>
+    <string name="string_code_2FA2">Enter the pin from Google \n Authenticator enable 2FA</string>
+    <string name="authenticate">Authenticate</string>
+    <string name="one_time_password">One time password</string>
+    <string name="Verification_code">Verification code</string>
+    <string name="error_vaticate">Invalid vertication code, please try again.</string>
+    <string name="sign_up_success">Sign Up Success!</string>
+    <string name="enter_the_code">You enter the qr code to start play</string>
+    <string name="Status_BuyLTR">Successfully buy ltr</string>
+    <string name="QUICK_PICK">quick pick</string>
+    <string name="view_your_number">view your number</string>
+    <string name="choose_number">pick your number</string>
+    <string name="how_to_play">how to play</string>
+    <string name="back">back</string>
+    <string name="address">Adress</string>
+    <string name="password">Pasword</string>
+    <string name="full_name">Full Name</string>
+    <string name="wallet">Wallet</string>
+    <string name="date_of_birth">Date of Birth </string>
+    <string name="submmit">sunmit</string>
+    <string name="LTR_Total">LTR</string>
+    <string name="ETH_Total">ETH</string>
+    <string name="Exchange_ETH_LTR">Exchange rate of ETH / LTR</string>
+    <string name="Buy_Ticket">Buy Ticket</string>
+    <string name="Transaction_ETH">The amount of ETH required to LTR (including ETH transaction fee)</string>
+    <string name="transaction">Transactions</string>
+    <string name="view">View</string>
+    <string name="home">Home</string>
+    <string name="choose_5">Chooose 5</string>
+    <string name="choose_1">Chooose 1</string>
+    <string name="Lottery_Result">Lottery Result</string>
+    <string name="line">Line</string>
+    <string name="email">Email</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="ticket">Ticket</string>
+    <string name="buy_LTR_Token">Buy LTR Token</string>
+    <string name="Wait_5_Minute">Please wait 5 minutes for the bloclchain system to reconfirm your transaction and transfer the LTR to your wallet</string>
+    <string name="Enter_LTR">Enter the amount of LTR to buy by ETH in your account. You can buy a maximum of</string>
+    <string name="number">Number</string>
+    <string name="question_buy_ticket">Are you sure you want to buy a ticket?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+
+
+    <string name="play">Play</string>
+
+</resources>

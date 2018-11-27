@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#EDEFF0"
+    android:layout_height="match_parent"
+    tools:context=".Sign_In_Activity">
+    <ScrollView
+        android:background="#EDEFF0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="@drawable/bogoc"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:hint="Full Name"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/bogoc1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+                <EditText
+                    android:hint="Email"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/bogoc1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+                <EditText
+                    android:hint="Phone"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/bogoc1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+                <EditText
+                    android:hint="Wallet BTC"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/bogoc1"
+                    android:layout_height="50dp" />
+
+                <EditText
+                    android:textSize="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/bogoc1"
+                    android:hint="Date of birth"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+
+                <TextView
+                    android:textSize="20dp"
+                    android:gravity="center_vertical"
+                    android:id="@+id/mTV_Select_CountTry"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/bogoc1"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" />
+                <TextView
+                    android:textSize="20dp"
+                    android:gravity="center_vertical"
+                    android:id="@+id/mTV_Select_Gender"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/bogoc1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+                <EditText
+                    android:hint="Address"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/bogoc1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+              <LinearLayout
+                  android:layout_marginLeft="20dp"
+                  android:layout_marginRight="20dp"
+                  android:layout_marginBottom="20dp"
+                  android:orientation="horizontal"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+                  <LinearLayout
+                      android:layout_gravity="center_vertical"
+                      android:layout_weight="0.5"
+                      android:layout_width="0dp"
+                      android:layout_height="wrap_content">
+
+                      <ImageView
+                          android:id="@+id/mIMG_ChanDung"
+                          android:scaleType="fitStart"
+                          android:src="@drawable/image_poitrait"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content" />
+
+                  </LinearLayout>
+                  <LinearLayout
+                      android:layout_gravity="center_vertical"
+                      android:layout_weight="0.5"
+                      android:layout_width="0dp"
+                      android:layout_height="wrap_content">
+
+                      <ImageView
+                          android:id="@+id/mIMG_Passport"
+                          android:scaleType="fitStart"
+                          android:layout_marginLeft="20dp"
+                          android:src="@drawable/image_passport"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content" />
+                  </LinearLayout>
+
+
+
+
+              </LinearLayout>
+                <EditText
+                    android:hint="Password"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/bogoc1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+                <EditText
+                    android:hint="Re-Enter Pasword"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/bogoc1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+                <Button
+                    android:textColor="#ffffff"
+                    android:text="Create my Account"
+                    android:background="#FF9900"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

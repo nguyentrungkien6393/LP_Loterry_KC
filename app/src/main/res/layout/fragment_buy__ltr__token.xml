@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.buyltr_token.Buy_LTR_Token">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Địa chỉ ví" />
+
+            <TextView
+                android:id="@+id/mTV_adress_wallet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bogoc"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Wallet" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Số lượng LTR" />
+
+            <TextView
+             android:id="@+id/mTV_wallet_LTR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bogoc"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Wallet" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Số lượng ETH" />
+
+            <TextView
+                android:id="@+id/mTV_wallet_ETH"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bogoc"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Wallet" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Tỷ giá trao đổi ETH/LTR" />
+
+            <TextView
+                android:id="@+id/mTV_Ty_Gia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bogoc"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Wallet" />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="Nhập số lượng LTR để mua bới ETH trong tài khoan của bạn. Bạn có thể mua tối đa" />
+
+            <EditText
+                android:id="@+id/mEDT_Buy_LTR"
+                android:inputType="number"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bogoc"
+                android:padding="10dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="Số lượng ETH cần đỏi sang LTR(bao gồm cả phí giao dịch ETH)" />
+
+            <TextView
+                android:id="@+id/mTV_ETH_Change"
+                android:inputType="number"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bogoc"
+                android:padding="10dp"
+                />
+            <Button
+                android:layout_marginTop="5dp"
+                android:textColor="#ffffff"
+                android:background="@drawable/bogoc_background_cam"
+                android:id="@+id/mButton_BuyLTR"
+                android:textSize="12sp"
+                android:text="Buy Ticket"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

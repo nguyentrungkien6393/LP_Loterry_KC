@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Ứng Dụng</string>
+    <string name="login">Đăng Nhập</string>
+    <string name="signin">Đăng Nhập</string>
+    <string name="gender">Giới Tính</string>
+    <string name="country">Quốc Gia</string>
+    <string name="male">Nam</string>
+    <string name="female">Nữ</string>
+    <string name="orther">Khác</string>
+    <string name="Two_Factor_Authentication">Mã 2FA</string>
+    <string name="string">Mã 2FA</string>
+    <string name="string_code_2FA">Xác thực hai yếu tố (2FA) tăng cường bảo mật truy cập bằng cách yêu cầu hai phương pháp (còn được gọi là các yếu tố) để xác minh danh tính của bạn. Xác thực hai yếu tố bảo vệ chống lại lừa đảo, kỹ thuật xã hội và tấn công bạo lực mật khẩu và bảo vệ thông tin đăng nhập của bạn khỏi những kẻ tấn công khai thác thông tin đăng nhập yếu hoặc bị đánh cắp.</string>
+    <string name="string_code_2FA2">Nhập mã pin từ Google \nAuthentication mở 2FA</string>
+    <string name="authenticate">Xác Thực</string>
+    <string name="one_time_password"> Mật khẩu 1 lần</string>
+    <string name="Verification_code">Mã xác thực</string>
+    <string name="error_vaticate">Mã xác minh không hợp lệ, vui lòng thử lại.</string>
+    <string name="sign_up_success">Đăng ký thành công</string>
+    <string name="enter_the_code">Bạn đã nhập mã qr để bắt đầu chơi</string>
+    <string name="Status_BuyLTR">Bạn đã đặt mua thành công</string>
+    <string name="email">Email</string>
+
+    <string name="close">Bạn đã nhập mã qr để bắt đầu chơi</string>
+    <string name="open">Bạn đã nhập mã qr để bắt đầu chơi</string>
+    <string name="QUICK_PICK">Chọn Nhanh</string>
+    <string name="view_your_number">xem số đã chọn</string>
+    <string name="how_to_play">chọn cách chơi</string>
+    <string name="choose_number">chọn số</string>
+    <string name="back">quay lại</string>
+    <string name="address">Địa Chỉ</string>
+    <string name="submmit">Gửi đi</string>
+    <string name="full_name">Tên Đầy Đủ</string>
+    <string name="buy_LTR_Token">Mua LTR Token</string>
+    <string name="date_of_birth">Ngày Sinh</string>
+    <string name="wallet">Ví</string>
+    <string name="home">Trang Chủ</string>
+    <string name="play">Chơi</string>
+    <string name="LTR_Total">Số lượng LTR</string>
+    <string name="ETH_Total">Số lượng ETH</string>
+    <string name="password">Mật khẩu</string>
+    <string name="Lottery_Result">Kết Quả Xổ Số</string>
+    <string name="sign_up">Đăng Ký</string>
+    <string name="Exchange_ETH_LTR">Tỷ giá trao đổi ETH/LT</string>
+    <string name="Enter_LTR">Nhập số lượng LTR để mua bới ETH trong tài khoan của bạn. Bạn có thể mua tối đa</string>
+    <string name="Transaction_ETH">Số lượng ETH cần đỏi sang LTR(bao gồm cả phí giao dịch ETH)</string>
+    <string name="transaction">Giao Dịch</string>
+    <string name="Wait_5_Minute">Xin đợi 5 phút để hệ thống bloclchain xác nhận lại giao dịch của bạn và chuyển LTR vào ví của bạn </string>
+    <string name="Buy_Ticket">Mua vé</string>
+    <string name="view">Xem</string>
+    <string name="number">Số</string>
+    <string name="line">Vé</string>
+    <string name="ticket">Vé</string>
+    <string name="choose_5">Chọn 5 Số</string>
+    <string name="choose_1">Chọn 1 Số</string>
+    <string name="question_buy_ticket">Bạn có chắc chắn muốn mua vé ?</string>
+    <string name="yes">Có</string>
+    <string name="no">Không</string>
+    <string name="json">
+[{
+        "email":"kiennguyentrung6393@gmail.com",
+        "password":"longphuong123",
+        "apikey":"NzE0MjM4ZGEtODZiMy00MDQ2LTliOTctYzgxN2RhYTU2N2Iw"
+},{
+        "game_id":1,
+        "user_id":26,
+        "numbers":"1 2 3 4 5",
+        "special_numbers":"1 2",
+        "price":1000,
+        "status":1,
+        "txhash":""
+        }]
+</string>
+    <!--links API-->
+    <string name="URL_LogIn">https://buylottery.org/api/login</string>
+    <string name="URL_Register">https://buylottery.org/api/register</string>
+    <string name="URL__Check_Validate_Register">https://buylottery.org/api/validateregister</string>
+    <string name="URL_Gamesinfo">https://buylottery.org/api/gamesinfo</string>
+    <string name="URL_Balance2">https://buylottery.org/api/getbalance2</string>
+    <string name="URL_Balance">https://buylottery.org/api/getbalance</string>
+    <string name="URL_Buy_Tickets">https://buylottery.org/api/buytickets</string>
+    <string name="URL_SUB_LINKS">https://buylottery.org/api/</string>
+    <string name="URL_TRANSACTION">https://buylottery.org/api/transactionHistory</string>
+    <string name="URL_Buy_LTR">https://buylottery.org/api/buyltr</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity__choose__number">Activity_Choose_Number</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+</resources>
